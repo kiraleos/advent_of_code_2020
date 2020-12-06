@@ -14,6 +14,7 @@ def main():
                 col = col[: len(col) // 2]
             elif char == "R":
                 col = col[len(col) // 2 :]
+        # (row, col, id)
         seats.append((row[0], col[0], row[0] * 8 + col[0]))
 
     # part 1
