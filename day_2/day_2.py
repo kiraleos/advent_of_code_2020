@@ -11,6 +11,7 @@ def main():
         char = policy.split("-")[-1][-1]
 
         # part 1
+
         occurences = 0
         for c in password:
             if c == char:
